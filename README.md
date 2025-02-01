@@ -13,4 +13,4 @@ To build and run the project, follow the steps below:
 5. Run it
 6. Done!
 
-![image]([https://github.com/zjx-amns/Banana-OS/image.png](https://github.com/zjx-amns/Banana-OS/blob/main/image.png))
+![image](https://github.com/zjx-amns/Banana-OS/blob/main/image.png)
