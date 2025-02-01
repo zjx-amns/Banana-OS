@@ -1,0 +1,17 @@
+# Bochs配置文件
+
+# 机器内存: 128MB
+megs: 128
+
+# 启动方式
+boot: disk
+
+romimage: file=G:/Bochs-2.8/BIOS-bochs-latest
+vgaromimage: file=G:/Bochs-2.8/VGABIOS-lgpl-latest
+
+# 关闭鼠标
+mouse: enabled=0
+
+# 硬盘设置
+ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14
+ata0-master: type=disk, path="disk.img", cylinders=20, heads=16, spt=63
